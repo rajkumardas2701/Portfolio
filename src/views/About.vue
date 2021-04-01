@@ -1,8 +1,6 @@
 <template>
   <div class="about main-section">
-    <h1 class="ml-4">
-      ABOUT ME
-    </h1>
+    <h1 class="ml-4">ABOUT ME</h1>
     <div class="home sections home-page d-flex">
       <div class="background-section col-md-2"></div>
       <div class="background-section col-md-2"></div>
@@ -11,21 +9,26 @@
       <div class="background-section col-md-2"></div>
       <div class="main-content">
         <div>
-          <h1>
-            ABOUT ME
-          </h1>
+          <h1>ABOUT ME</h1>
         </div>
         <div class="inner-section">
           <div class="middle-section"></div>
         </div>
         <div class="details d-flex">
-          <div class="image-section "></div>
+          <!-- <div class="image-section"></div> -->
           <div class="details-section">
-            <h2>I am <span>Sunday Odong</span></h2>
+            <h2>I am <span>Rajkumar Das</span></h2>
             <p>
-              I’m a full-stack software developer, and I specialize in
-              efficient, Ruby, Ruby on Rails, Javascript, React apps and CSS &
-              HTML that just work across all platforms and browsers
+              Rare communication with clients throughout the development stage
+              results in a final product that fails to reach the goal sought by
+              the customer and end user. <br /><br />For this reason I decided
+              to utilize a completely different development pattern that focuses
+              on highly focused communication and transparent design patterns.
+              My goal is to ensure whenever I take on a project not only do I
+              work to craft the application according to the client's
+              specifications, I give daily updates to ensure that the project is
+              aligning properly with the client's goals. The end result is the
+              right product, delivered on time, and on budget.
             </p>
             <div class="partial name d-flex mb-2">
               <div class="first">
@@ -40,7 +43,7 @@
                 <span>Full Name</span>
               </div>
               <div class="second-partial">
-                <p>: Sunday Odong</p>
+                <p>: Rajkumar Anilkumar Das</p>
               </div>
             </div>
             <div class="partial nationality my-2 d-flex">
@@ -48,7 +51,7 @@
                 <span>Nationality</span>
               </div>
               <div class="second-partial">
-                <p>: Ugandan</p>
+                <p>: Indian</p>
               </div>
             </div>
             <div class="partial language d-flex">
@@ -56,7 +59,7 @@
                 <span>Languages </span>
               </div>
               <div class="second-partial">
-                <p>: English, German, Luo</p>
+                <p>: English, Hindi, Marathi</p>
               </div>
             </div>
             <div class="partial address my-2 d-flex">
@@ -64,7 +67,10 @@
                 <span>Address</span>
               </div>
               <div class="second-partial">
-                <p>: Plot 19, Obiya Road Gulu, Uganda</p>
+                <p>
+                  : 8th Main, 2nd Main, ITI Layout, Yellukunte, HSR Layout,
+                  Bengaluru, Karnataka, India-560068
+                </p>
               </div>
             </div>
             <div class="partial frelance d-flex">
@@ -75,15 +81,17 @@
                 <p>: Available</p>
               </div>
             </div>
-            <a class="cv-download ml-2 mt-2" href="https://docs.google.com/document/d/1XLCA67ffYH8G7J0uXQxCWDbLUfzdkHKSC4q51EUnFpk/edit?usp=sharing" target="_blank" >
+            <a
+              class="cv-download ml-2 mt-2"
+              href="https://docs.google.com/document/d/1pYtFyfdhIBRSoFMfrPpHNNsVHv6OMmCIr1qHqNyzwdQ/edit?usp=sharing"
+              target="_blank"
+            >
               VIEW RESUME
             </a>
           </div>
         </div>
         <div class="services">
-          <h1>
-            SERVICES
-          </h1>
+          <h1>SERVICES</h1>
         </div>
         <div class="inner-section new-section">
           <div class="middle-section"></div>
@@ -103,13 +111,13 @@
             </div>
           </div>
           <div class="back-end grid-section">
-            <i class="fab fa-react "></i>
+            <i class="fab fa-react"></i>
             <h5>Web Development(Front End)</h5>
             <div class="empty-div"></div>
             <div class="description">
               <p>
                 I majorly develop single-page applications using Javascript and
-                its frame-work of React and VueJs.
+                its frame-work of React.
               </p>
             </div>
           </div>
@@ -120,17 +128,14 @@
             <div class="description">
               <p>
                 On the Server-side (also know as Back-end), I specialize in Ruby
-                and its frame-work of Ruby on Rails, and Node/ExpressJs. The
-                services are developed using relational databases like
-                Postgress, SQLite or MYSQL, and MongoDB (NoSQL DB)
+                and its frame-work of Ruby on Rails. The services are developed
+                using relational databases like Postgress, SQLite.
               </p>
             </div>
           </div>
         </div>
         <div class="services">
-          <h1>
-            REVIEWS
-          </h1>
+          <h1>REVIEWS</h1>
         </div>
         <div class="inner-section new-section">
           <div class="middle-section"></div>
@@ -138,57 +143,24 @@
         <div class="reviews-section">
           <div class="review-item">
             <p>
-              Sunday is a proactive, self-motivated individual always working
-              hard to meet his goals. He is excellent in problem solving and
-              very open to trying new things to achieve the set goals. He is
-              great at communication and critical at thinking.
+              I had the opportunity to work with Rajkumar Das during my time at
+              Microverse. He was a member of my stand-up team. He is a very
+              collaborative individual and openly shares his opinion about every
+              challenge we had in the stand-ups. I greatly admire his leadership
+              and communication skills. He always endeavors to make all the
+              necessary communications. Besides that, he has great technical
+              capabilities and always tries to understand concepts to depths. He
+              would always create time for every individual in the team in case
+              one needed support. Any team would be glad to have him as a member
             </p>
             <h5>
               BY:
               <span>
                 <a
-                  href="https://www.linkedin.com/in/phylis-chepchumba/"
+                  href="https://www.linkedin.com/in/sunday-alican-odong/"
                   target="_blank"
                 >
-                  Phylis Chepchumba
-                </a>
-              </span>
-            </h5>
-          </div>
-          <div class="review-item">
-            <p>
-              I had the pleasure of having Sunday as a standup team member in
-              the Microverse program. I was particularly impressed by his
-              problem-solving ability which seemed to come naturally to him
-              whenever we had mob programming sessions.
-            </p>
-            <h5>
-              BY:
-              <span>
-                <a
-                  href="https://www.linkedin.com/in/rahmahalane/"
-                  target="_blank"
-                >
-                  Rahma Halane
-                </a>
-              </span>
-            </h5>
-          </div>
-          <div class="review-item">
-            <p>
-              I have experienced how a good team member Sunday is, He is a very
-              reliable and responsible partner. He always soften the working
-              space atmosphere with his presence and makes you feel He will
-              always be one click away for you.
-            </p>
-            <h5>
-              BY:
-              <span>
-                <a
-                  href="https://www.linkedin.com/in/luis-raul-figueroa-soto-63411118a/"
-                  target="_blank"
-                >
-                  Raul Figueroa Soto
+                  Sunday Odong
                 </a>
               </span>
             </h5>
@@ -201,7 +173,7 @@
 <style scoped>
 .image-section {
   margin-top: 20px;
-  background-image: url("../../public/potrait.png");
+  background-image: url("../../public/PIC.jpeg");
   height: 32em;
   width: 30em;
   background-size: cover;
@@ -210,8 +182,8 @@
 
 .details-section {
   font-family: Nunito, sans-serif;
-  margin-top: 20px;
-  width: 45em;
+  margin-top: 20px auto;
+  width: 90%;
   padding-right: 10px;
 }
 
@@ -363,13 +335,14 @@
 @media only screen and (max-width: 1024px) {
   .details {
     flex-direction: column;
+    align-self: center;
   }
 
-  .details .image-section {
+  /* .details .image-section {
     width: 90%;
     height: 500px;
     margin: auto;
-  }
+  } */
 
   .details .details-section {
     width: 90%;

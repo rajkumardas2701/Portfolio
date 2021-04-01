@@ -1,8 +1,6 @@
 <template>
   <div class="about main-section">
-    <h1 class="ml-4">
-      MY SKILLS
-    </h1>
+    <h1 class="ml-4">MY SKILLS</h1>
     <div class="home sections home-page d-flex">
       <div class="background-section col-md-2"></div>
       <div class="background-section col-md-2"></div>
@@ -11,9 +9,7 @@
       <div class="background-section col-md-2"></div>
       <div class="main-content">
         <div>
-          <h1>
-            MY SKILLS
-          </h1>
+          <h1>MY SKILLS</h1>
         </div>
         <div class="inner-section">
           <div class="middle-section"></div>
@@ -22,9 +18,7 @@
           <div class="first-section">
             <h5>HTML5</h5>
             <div class="inner-skills">
-              <div class="percentage">
-                95%
-              </div>
+              <div class="percentage">95%</div>
               <div class="inner-section-html">
                 <div class="middle-section-html"></div>
               </div>
@@ -33,9 +27,7 @@
           <div class="second-section">
             <h5>CSS</h5>
             <div class="inner-skills">
-              <div class="percentage">
-                90%
-              </div>
+              <div class="percentage">90%</div>
               <div class="inner-section-css">
                 <div class="middle-section-css"></div>
               </div>
@@ -46,9 +38,7 @@
           <div class="first-section">
             <h5>Ruby</h5>
             <div class="inner-skills">
-              <div class="percentage">
-                80%
-              </div>
+              <div class="percentage">80%</div>
               <div class="inner-section-html">
                 <div class="middle-section-html ruby"></div>
               </div>
@@ -57,9 +47,7 @@
           <div class="second-section">
             <h5>Ruby on Rails</h5>
             <div class="inner-skills">
-              <div class="percentage">
-                85%
-              </div>
+              <div class="percentage">85%</div>
               <div class="inner-section-css">
                 <div class="middle-section-css rails"></div>
               </div>
@@ -70,9 +58,7 @@
           <div class="first-section">
             <h5>Javascript</h5>
             <div class="inner-skills">
-              <div class="percentage ">
-                80%
-              </div>
+              <div class="percentage">80%</div>
               <div class="inner-section-html">
                 <div class="middle-section-html ruby"></div>
               </div>
@@ -81,9 +67,7 @@
           <div class="second-section">
             <h5>React &#38; Redux</h5>
             <div class="inner-skills">
-              <div class="percentage">
-                80%
-              </div>
+              <div class="percentage">80%</div>
               <div class="inner-section-css">
                 <div class="middle-section-css ruby"></div>
               </div>
@@ -91,9 +75,7 @@
           </div>
         </div>
         <div class="resume-section">
-          <h1>
-            RESUME
-          </h1>
+          <h1>RESUME</h1>
         </div>
         <div class="inner-section resume-section-div">
           <div class="middle-section"></div>
@@ -105,50 +87,54 @@
         <div class="experience-section">
           <div class="dummy-div"></div>
           <div class="left-section">
-            <span>2020 - Present</span>
+            <span>February, 2020– Present</span>
           </div>
           <div class="right-section">
-            <h5>Full-Stack Web Developer</h5>
-            <span>Learning Dollars Talent (LDT)</span>
+            <h5>Full Stack Web Developer</h5>
+            <span>Personal projects</span>
             <p>
-              My position at LDT is "Freelance Full Stack Software Developer".
-              My role is to develop scalable applications using ExpressJs and
-              VueJS, following the agile methodology of software development. I
-              also participate in writing blogs that can be used by other
-              developers at LDT ( Learning Dollars Talent).
+              <b><i>Phaser Game</i></b> — Endless runner game with a theme to
+              collect coins and compete with rest. <br />Built with:
+              (JavaScript, Jest, Phaser 3 framework) <br /><br /><b
+                ><i>Twitter Bot</i></b
+              >
+              — The bot connects to Twitter API to get a list of your followers,
+              help you follow someone, post COVID updates, festivals, and jobs
+              nearby on your twitter handle. Built with: (Ruby, Rspec, Twitter
+              API) <br /><br /><b><i>Tic-Tac-Toe</i></b> — The traditional game
+              which can be played on browser by clicking on the empty places on
+              the board. It has an option to either end the game or restart
+              after every result. Built with: (Javascript, HTML5, CSS3)
             </p>
           </div>
         </div>
         <div class="experience-section">
           <div class="dummy-div"></div>
           <div class="left-section">
-            <span>2019 - 2020</span>
+            <span>October 2019 - Present</span>
           </div>
           <div class="right-section">
-            <h5>Full-Stack Web Developer</h5>
-            <span>Refactory Uganda (Bootcamp)</span>
+            <h5>Support Escalation Engineer</h5>
+            <span>Microsoft - Bengaluru, India</span>
             <p>
-              At refactory Uganda, software developers are trained in technical
-              skills ( including Javascript, VueJs, ExpressJs, HTML, and CSS)
-              and soft skills ( including Leadership skills, lean and agile
-              methodologies). They are also provided opportunities to develop
-              applications for start-up companies in Uganda.
+              De-escalating critical issues by a regular intervention.
+              <br />Trained multiple partners on MS Cloud Services (Teams/Skype
+              for Business).
             </p>
           </div>
         </div>
         <div class="experience-section">
           <div class="dummy-div"></div>
           <div class="left-section">
-            <span>2017(April) - 2017(September)</span>
+            <span>January 2018 - October 2019</span>
           </div>
           <div class="right-section">
-            <h5>Base Station Transceiver (BTS) Maintenance</h5>
-            <span>Netis Uganda (Intern)</span>
+            <h5>Technical Advisor</h5>
+            <span>Microsoft - Bengaluru, India</span>
             <p>
-              NETIS is a telecommunication company based in Uganda. They are in
-              charge of maintaining several telecommunications sites within the
-              country. My role as an intern was to maintain the various
-              equipment within the base transceiver stations.
+              Led team of 20 people and ensured they have Technical skills and
+              meet their KPI. <br />Handled executive escalations and led MS
+              Team’s readiness program for all the suppliers.
             </p>
           </div>
         </div>
@@ -159,7 +145,7 @@
         <div class="experience-section">
           <div class="dummy-div"></div>
           <div class="left-section">
-            <span>2020 - Present</span>
+            <span>February 2020 - Present</span>
           </div>
           <div class="right-section">
             <h5>Full-Stack Web Development</h5>
@@ -176,18 +162,19 @@
         <div class="experience-section">
           <div class="dummy-div"></div>
           <div class="left-section">
-            <span>2015 - 2018</span>
+            <span>2009 - 2013</span>
           </div>
           <div class="right-section">
-            <h5>Bachelor Degree</h5>
-            <span>Kyambogo University Uganda</span>
+            <h5>B.E. in Computers</h5>
+            <span>Terna Engineering College, Mumbai University</span>
             <p>
-              I was awarded a Bachelor of Telecommunications Engineering degree
-              from Kyambogo University in Uganda. Telecommunications Engineering
-              is an engineering discipline centered on electrical and computer
-              engineering which seeks to support and enhance telecommunication
-              systems. The work ranges from basic circuit design to strategic
-              mass developments.
+              Completed my bachelors of engineering in computers with first
+              class. <br />Participated in a dance competition for resonance
+              event in Terna Engineering College. <br />Participated in
+              volleyball during sports days in my college. <br />Participated in
+              Antarang, where I had a role to play and a traditional dance
+              performance. <br />An active member of the computer society of
+              India in my college and volunteered for various events.
             </p>
           </div>
         </div>

@@ -2,7 +2,7 @@
   <div id="app">
     <div id="nav" class="mx-0 px-0">
       <div class="top-image">
-        <div class=" mx-auto photo-section opposite"></div>
+        <div class="mx-auto photo-section opposite"></div>
       </div>
       <div class="links-section mt-4 px-1">
         <router-link class="link border-link exec-home" to="/">
@@ -31,19 +31,19 @@
         <div class="social-media-footer">
           <div class="linkedIn-footer p-1">
             <a
-              href="https://www.linkedin.com/in/sunday-alican-odong-b99226b7/"
+              href="https://www.linkedin.com/in/dasrajkumar27/"
               target="_blank"
             >
               <i class="fab fa-linkedin-in fa-sm"></i>
             </a>
           </div>
-          <div class="twitter-footer p-1 ">
-            <a href="https://twitter.com/odongsandie" target="_blank">
+          <div class="twitter-footer p-1">
+            <a href="https://twitter.com/Rajkuma58621299" target="_blank">
               <i class="fab fa-twitter fa-sm"></i>
             </a>
           </div>
           <div class="github-footer p-1">
-            <a href="https://github.com/OdongAlican" target="_blank">
+            <a href="https://github.com/rajkumardas2701" target="_blank">
               <i class="fab fa-github fa-sm"></i>
             </a>
           </div>
@@ -143,7 +143,7 @@ body {
   border-radius: 50%;
   width: 150px;
   height: 150px;
-  background-image: url("../public/test.jpg");
+  background-image: url("../public/PIC.jpeg");
   background-size: cover;
 }
 

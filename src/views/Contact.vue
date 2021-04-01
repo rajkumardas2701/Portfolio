@@ -1,9 +1,7 @@
 /* eslint-disable */
 <template>
   <div class="about main-section">
-    <h1 class="ml-4">
-      CONTACT
-    </h1>
+    <h1 class="ml-4">CONTACT</h1>
     <div class="home sections home-page d-flex">
       <div class="background-section col-md-2"></div>
       <div class="background-section col-md-2"></div>
@@ -12,9 +10,7 @@
       <div class="background-section col-md-2"></div>
       <div class="main-content">
         <div>
-          <h1>
-            CONTACT
-          </h1>
+          <h1>CONTACT</h1>
         </div>
         <div class="inner-section">
           <div class="middle-section"></div>
@@ -24,14 +20,12 @@
             <div class="left-contact">
               <h4>Get In Touch</h4>
               <div class="name">
-                <label for="name">
-                  Enter Your Name*
-                </label>
+                <label for="name"> Enter Your Name* </label>
                 <input
                   v-model.trim="$v.name.$model"
                   :class="{
                     'is-invalid': $v.name.$error,
-                    'is-valid': !$v.name.$invalid
+                    'is-valid': !$v.name.$invalid,
                   }"
                   name="name"
                   type="text"
@@ -50,14 +44,12 @@
                 </div>
               </div>
               <div class="name">
-                <label for="name">
-                  Enter Your email*
-                </label>
+                <label for="name"> Enter Your email* </label>
                 <input
                   v-model.trim="$v.email.$model"
                   :class="{
                     'is-invalid': $v.email.$error,
-                    'is-valid': !$v.email.$invalid
+                    'is-valid': !$v.email.$invalid,
                   }"
                   type="email"
                   name="email"
@@ -71,14 +63,12 @@
                 </div>
               </div>
               <div class="name">
-                <label for="name">
-                  Enter Your Subject*
-                </label>
+                <label for="name"> Enter Your Subject* </label>
                 <input
                   v-model.trim="$v.subject.$model"
                   :class="{
                     'is-invalid': $v.subject.$error,
-                    'is-valid': !$v.subject.$invalid
+                    'is-valid': !$v.subject.$invalid,
                   }"
                   type="text"
                   name="subject"
@@ -97,15 +87,13 @@
                 </div>
               </div>
               <div class="name">
-                <label for="name">
-                  Enter Your Message*
-                </label>
+                <label for="name"> Enter Your Message* </label>
                 <textarea
                   name="message"
                   v-model.trim="$v.message.$model"
                   :class="{
                     'is-invalid': $v.message.$error,
-                    'is-valid': !$v.message.$invalid
+                    'is-valid': !$v.message.$invalid,
                   }"
                   cols="30"
                   rows="8"
@@ -136,7 +124,7 @@
                 </div>
                 <div class="icon-details">
                   <span>Phone</span>
-                  <p>+256777338787</p>
+                  <p>+91-8080851881</p>
                 </div>
               </div>
               <div class="phone-contact first-part">
@@ -147,7 +135,7 @@
                 </div>
                 <div class="icon-details">
                   <span>Email</span>
-                  <p>sandieo.2020@gmail.com</p>
+                  <p>rajkumardas2701@gmail.com</p>
                 </div>
               </div>
               <div class="phone-contact">
@@ -158,7 +146,10 @@
                 </div>
                 <div class="icon-details">
                   <span>Address</span>
-                  <p>Plot 19, Obiya Road Gulu-Uganda</p>
+                  <p>
+                    338, Veer Tanaji Nagar, Sardar Pada, Section-39, Ulhasnagar,
+                    Thane, Maharashtra- 421005
+                  </p>
                 </div>
               </div>
             </div>
@@ -174,7 +165,7 @@ import {
   required,
   minLength,
   maxLength,
-  email
+  email,
 } from "vuelidate/lib/validators";
 export default {
   name: "ContactUs",
@@ -183,24 +174,24 @@ export default {
       name: "",
       email: "",
       message: "",
-      subject: ""
+      subject: "",
     };
   },
   validations: {
     name: {
       required,
       minLength: minLength(3),
-      maxLength: maxLength(25)
+      maxLength: maxLength(25),
     },
     subject: {
       required,
       minLength: minLength(5),
-      maxLength: maxLength(35)
+      maxLength: maxLength(35),
     },
     message: {
       required,
       minLength: minLength(5),
-      maxLength: maxLength(500)
+      maxLength: maxLength(500),
     },
     email: {
       required,
@@ -210,13 +201,13 @@ export default {
         // eslint-disable-next-line
         const email_regex = /^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i;
 
-        return new Promise(resolve => {
+        return new Promise((resolve) => {
           setTimeout(() => {
             resolve(email_regex.test(value));
           }, 350 + Math.random() * 300);
         });
-      }
-    }
+      },
+    },
   },
   methods: {
     sendEmail(e) {
@@ -234,7 +225,7 @@ export default {
               name: this.name,
               email: this.email,
               message: this.message,
-              subject: this.subject
+              subject: this.subject,
             }
           );
         } catch (error) {
@@ -246,8 +237,8 @@ export default {
         this.subject = "";
         this.submitstatus = "SUCCESS";
       }
-    }
-  }
+    },
+  },
 };
 </script>
 <style scoped>
