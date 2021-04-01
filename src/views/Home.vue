@@ -8,32 +8,27 @@
     <div class="main-content">
       <h1>
         Hi, I am
-        <span>Sunday Odong</span>
+        <span>Rajkumar Das</span>
       </h1>
       <p>
-        I’m a full-stack software developer, and I specialize in efficient,
-        Ruby, Ruby on Rails, Javascript,
-      </p>
-      <p>
-        React apps and CSS & HTML that just work across all platforms and
-        browsers
+        Software development should not be a secret process, when I take on a
+        new project, I make it my goal to not only deliver a well crafted
+        product but to also ensure that each stage of the process is fully
+        communicated.
       </p>
       <div class="social-media d-flex">
         <div class="linkedIn">
-          <a
-            href="https://www.linkedin.com/in/sunday-alican-odong-b99226b7/"
-            target="_blank"
-          >
+          <a href="https://www.linkedin.com/in/dasrajkumar27/" target="_blank">
             <i class="fab fa-linkedin-in"></i>
           </a>
         </div>
-        <div class="twitter  mx-2">
-          <a href="https://twitter.com/odongsandie" target="_blank">
+        <div class="twitter mx-2">
+          <a href="https://twitter.com/Rajkuma58621299" target="_blank">
             <i class="fab fa-twitter"></i>
           </a>
         </div>
         <div class="github">
-          <a href="https://github.com/OdongAlican" target="_blank">
+          <a href="https://github.com/rajkumardas2701" target="_blank">
             <i class="fab fa-github"></i>
           </a>
         </div>
@@ -44,7 +39,7 @@
 <script>
 export default {
   name: "Home",
-  components: {}
+  components: {},
 };
 </script>
 <style scoped>

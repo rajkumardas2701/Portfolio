@@ -1,8 +1,6 @@
 <template>
   <div class="about main-section">
-    <h1 class="ml-4">
-      PROJECTS
-    </h1>
+    <h1 class="ml-4">PROJECTS</h1>
     <div class="home sections home-page d-flex">
       <div class="background-section col-md-2"></div>
       <div class="background-section col-md-2"></div>
@@ -11,9 +9,7 @@
       <div class="background-section col-md-2"></div>
       <div class="main-content">
         <div>
-          <h1>
-            PROJECTS
-          </h1>
+          <h1>PROJECTS</h1>
         </div>
         <div class="inner-section">
           <div class="middle-section"></div>
@@ -21,20 +17,20 @@
         <div class="projects-section">
           <div class="project-grid final-capstone">
             <div class="project-title">
-              <span>
-                Tracking Application (React and Rails).
-              </span>
+              <span> Expense Management (Ruby on Rails) </span>
               <div
-                class=" pl-2 downer-div d-flex justify-content-center align-items-center"
+                class="pl-2 downer-div d-flex justify-content-center align-items-center"
               >
                 <div>
-                  <a href="https://trackingappk.herokuapp.com/" target="_blank"
+                  <a
+                    href="https://rajda-expense-mgmt.herokuapp.com/"
+                    target="_blank"
                     >Live Link</a
                   >
                 </div>
                 <div class="ml-4">
                   <a
-                    href="https://github.com/OdongAlican/track-it-front-end"
+                    href="https://github.com/rajkumardas2701/ExpenseManagement"
                     target="_blank"
                     >Github Repository</a
                   >
@@ -44,22 +40,20 @@
           </div>
           <div class="project-grid weather-capstone">
             <div class="project-title">
-              <span>
-                Weather Application (Javascript).
-              </span>
+              <span> Weather Application (Javascript) </span>
               <div
-                class=" pl-2 downer-div d-flex justify-content-center align-items-center"
+                class="pl-2 downer-div d-flex justify-content-center align-items-center"
               >
                 <div>
                   <a
-                    href="https://rawcdn.githack.com/OdongAlican/weather-app/b1d0e5eb14c1bc473871afa73f803e2375bd3f62/dist/index.html"
+                    href="https://rawcdn.githack.com/rajkumardas2701/WeatherApp_JS/0da9e1cf8f3b92f71026a2918ee9dec8f1e63839/dist/index.html"
                     target="_blank"
                     >Live Link</a
                   >
                 </div>
                 <div class="ml-4">
                   <a
-                    href="https://github.com/OdongAlican/weather-app"
+                    href="https://github.com/rajkumardas2701/WeatherApp_JS"
                     target="_blank"
                     >Github Repository</a
                   >
@@ -69,22 +63,20 @@
           </div>
           <div class="project-grid restaurant-captone">
             <div class="project-title">
-              <span>
-                Restaurant Page(Javascript).
-              </span>
+              <span> Restaurant Page (Javascript) </span>
               <div
-                class=" pl-2 downer-div d-flex justify-content-center align-items-center"
+                class="pl-2 downer-div d-flex justify-content-center align-items-center"
               >
                 <div>
                   <a
-                    href="https://rawcdn.githack.com/OdongAlican/alican-restaurant/036e7c0f75222c583ea6e74bdd5d4f2a404115a2/dist/index.html"
+                    href="https://rawcdn.githack.com/rajkumardas2701/Restaurant_JS/af1748991bce2f8a60b11ac827788a9bcecc16ce/dist/index.html"
                     target="_blank"
                     >Live Link</a
                   >
                 </div>
                 <div class="ml-4">
                   <a
-                    href="https://github.com/OdongAlican/alican-restaurant"
+                    href="https://github.com/rajkumardas2701/Restaurant_JS"
                     target="_blank"
                     >Github Repository</a
                   >
@@ -96,22 +88,20 @@
         <div class="projects-section">
           <div class="project-grid game-capstone">
             <div class="project-title">
-              <span>
-                Phaser Game (Javascript).
-              </span>
+              <span> Phaser Game (Javascript) </span>
               <div
-                class=" pl-2 downer-div d-flex justify-content-center align-items-center"
+                class="pl-2 downer-div d-flex justify-content-center align-items-center"
               >
                 <div>
                   <a
-                    href="https://stormy-thicket-31990.herokuapp.com/"
+                    href="https://elegant-ramanujan-b37b73.netlify.app/"
                     target="_blank"
                     >Live Link</a
                   >
                 </div>
                 <div class="ml-4">
                   <a
-                    href="https://github.com/OdongAlican/phaser-gmae"
+                    href="https://github.com/rajkumardas2701/runnerPhaser_JS"
                     target="_blank"
                     >Github Repository</a
                   >
@@ -121,22 +111,20 @@
           </div>
           <div class="project-grid recipies-capstone">
             <div class="project-title">
-              <span>
-                Stores Application (React & Redux).
-              </span>
+              <span> Tic Tac Toe (Javascript). </span>
               <div
-                class=" pl-2 downer-div d-flex justify-content-center align-items-center"
+                class="pl-2 downer-div d-flex justify-content-center align-items-center"
               >
                 <div>
                   <a
-                    href="https://online-str-app.herokuapp.com/"
+                    href="https://rawcdn.githack.com/rajkumardas2701/TicTacToe_JS/c93694f7b1eca2bcdbd732d026ba644a06310fd1/index.html"
                     target="_blank"
                     >Live Link</a
                   >
                 </div>
                 <div class="ml-4">
                   <a
-                    href="https://github.com/OdongAlican/catalogue-of-recipes"
+                    href="https://github.com/rajkumardas2701/TicTacToe_JS"
                     target="_blank"
                     >Github Repository</a
                   >
@@ -146,22 +134,20 @@
           </div>
           <div class="project-grid calculator-captone">
             <div class="project-title">
-              <span>
-                Calculator Application(React & Redux).
-              </span>
+              <span> Calculator Application(React & Redux). </span>
               <div
-                class=" pl-2 downer-div d-flex justify-content-center align-items-center"
+                class="pl-2 downer-div d-flex justify-content-center align-items-center"
               >
                 <div>
                   <a
-                    href="https://odongalican.github.io/calculator/"
+                    href="https://ninja-calculator.herokuapp.com/"
                     target="_blank"
                     >Live Link</a
                   >
                 </div>
                 <div class="ml-4">
                   <a
-                    href="https://github.com/OdongAlican/calculator"
+                    href="https://github.com/rajkumardas2701/calculator"
                     target="_blank"
                     >Github Repository</a
                   >
@@ -173,22 +159,20 @@
         <div class="projects-section">
           <div class="project-grid ruby-capstone">
             <div class="project-title">
-              <span>
-                Categories and Articles Blog (Ruby on Rails).
-              </span>
+              <span> Twitter Bot (Ruby) </span>
               <div
-                class=" pl-2 downer-div d-flex justify-content-center align-items-center"
+                class="pl-2 downer-div d-flex justify-content-center align-items-center"
               >
                 <div>
                   <a
-                    href="https://infinite-bastion-80235.herokuapp.com/"
+                    href="https://www.loom.com/share/f14874c94b594de4bf486794f28da703"
                     target="_blank"
-                    >Live Link</a
+                    >Presentation</a
                   >
                 </div>
                 <div class="ml-4">
                   <a
-                    href="https://github.com/OdongAlican/articles-capstone-project"
+                    href="https://github.com/rajkumardas2701/Ruby-Capstone"
                     target="_blank"
                     >Github Repository</a
                   >
@@ -198,22 +182,20 @@
           </div>
           <div class="project-grid html-capstone">
             <div class="project-title">
-              <span>
-                Courses Posting Website (HTML and CSS).
-              </span>
+              <span> Concert Website (HTML and CSS) </span>
               <div
-                class=" pl-2 downer-div d-flex justify-content-center align-items-center"
+                class="pl-2 downer-div d-flex justify-content-center align-items-center"
               >
                 <div>
                   <a
-                    href="https://raw.githack.com/OdongAlican/courses-guide/develop/"
+                    href="https://rawcdn.githack.com/rajkumardas2701/HTML-CSS-Capstone/69e97b296e27e8db73c84cd8fd03761f3e374f10/index.html"
                     target="_blank"
                     >Live Link</a
                   >
                 </div>
                 <div class="ml-4">
                   <a
-                    href="https://github.com/OdongAlican/courses-guide"
+                    href="https://github.com/rajkumardas2701/HTML-CSS-Capstone"
                     target="_blank"
                     >Github Repository</a
                   >
@@ -223,22 +205,20 @@
           </div>
           <div class="project-grid bootstrap-captone">
             <div class="project-title">
-              <span>
-                Cloning Newsweek Home Page(Bootstrap).
-              </span>
+              <span> Cloning Newsweek Home Page(Bootstrap). </span>
               <div
-                class=" pl-2 downer-div d-flex justify-content-center align-items-center"
+                class="pl-2 downer-div d-flex justify-content-center align-items-center"
               >
                 <div>
                   <a
-                    href="https://raw.githack.com/OdongAlican/newsweek.com-home-page/develop/"
+                    href="https://rawcdn.githack.com/rajkumardas2701/Bootstrap-Newsweek/c522eabe289ea261c674b8f7cb9b23606e796ae3/index.html"
                     target="_blank"
                     >Live Link</a
                   >
                 </div>
                 <div class="ml-4">
                   <a
-                    href="https://github.com/OdongAlican/newsweek.com-home-page"
+                    href="https://github.com/rajkumardas2701/Bootstrap-Newsweek"
                     target="_blank"
                     >Github Repository</a
                   >
@@ -248,9 +228,7 @@
           </div>
         </div>
         <div class="blogs-header">
-          <h1>
-            ARTICLES
-          </h1>
+          <h1>ARTICLES</h1>
         </div>
         <div class="inner-section blogs">
           <div class="middle-section">
@@ -261,25 +239,12 @@
           <div class="blog-grid first-blog medium">
             <div class="blog-title-section">
               <p class="blog-body">
-                How can one achieve proper elements alignment on a web-page?
-                Having a wonderful looking page using Grid or Flex-Boxes ...
+                If you know any of the Software Developers around and never
+                heard them talking about GitHub? It seems someone’s having a
+                hard time managing their software versions and you could be the
+                one telling them about...
                 <a
-                  href="https://medium.com/@sandieo.2020/how-can-one-achieve-proper-elements-alignment-on-a-web-page-8e1a9618bfb2"
-                  target="_blank"
-                >
-                  Read More
-                </a>
-              </p>
-            </div>
-          </div>
-          <div class="blog-grid first-blog wordpress">
-            <div class="blog-title-section">
-              <p class="blog-body">
-                Managing relationships among various collections in the Mongo
-                database with Express/Js. It involves attaching a created Post
-                to its author ...
-                <a
-                  href="https://blog.learningdollars.com/2020/04/26/relationship-in-mongodb-using-node-expressjs/"
+                  href="https://medium.com/@rajkumardas2701/new-to-software-development-heard-about-github-but-never-used-lets-learn-how-to-use-this-tool-6b6fcc09eae1"
                   target="_blank"
                 >
                   Read More
@@ -322,7 +287,7 @@
 }
 
 .final-capstone {
-  background-image: url("../../public/SmartMockup/track_it.jpg");
+  background-image: url("../../public/SmartMockup/expense.jpg");
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
@@ -347,6 +312,7 @@
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .bootstrap-captone {
@@ -427,6 +393,18 @@
   background-color: #2e344e;
   left: 0;
   padding: 10px;
+}
+
+.html-capstone,
+.ruby-capstone,
+.final-capstone,
+.weather-capstone,
+.restaurant-captone,
+.game-capstone,
+.bootstrap-captone,
+.recipies-capstone,
+.calculator-captone {
+  background-position: center;
 }
 
 @media only screen and (max-width: 1024px) {
